@@ -19,3 +19,4 @@ How might using version control make you more confident to make changes that cou
 
 Now that you have your workspace set up, what do you want to try using git for?
   Mainly the hexapod RST 2019 python stuff. But If I get more confident I think it would be nice to configure arduino for this as well.
+  
