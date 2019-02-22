@@ -1,0 +1,5 @@
+What happens when you initialize a repo? Why do you need to do it?
+  It creates the repo with git, and starts tracking changes. You can check with 'git status'. You need to do it in order to use the directory as a repo.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+  The staging area is the stuff you're getting ready to commit. The working directory is the stuff actually on your computer in the file I think. The repository is the thing that actually goes online I believe. 
