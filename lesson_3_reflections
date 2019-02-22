@@ -8,3 +8,15 @@ Describe the differences between forks, clones, and branches. When would you use
   Fork - github only version of clones
   Clone - works in both, copies an entire repository
   branch - subsections of repositories that can be modified independently
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  Then if someone else updates it is easier to compare for merge history.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  Probably by doing it how I have been. Just sharing files with no definite structure like GitHub lays out.
+  It would be easier because I wouldn't have to spend hours taking this course and get distracted by committing and pulling etc...
+  It would be harder to keep track of who changes what and what is the latest stable version.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  When you want to test stuff that might break the code, or something that you don't know if you will implement.
+  The benefits of this are kind of self explanatory, the only benefit of committing directly to master is less work.
