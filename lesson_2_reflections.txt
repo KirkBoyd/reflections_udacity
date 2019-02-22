@@ -2,4 +2,19 @@ What happens when you initialize a repo? Why do you need to do it?
   It creates the repo with git, and starts tracking changes. You can check with 'git status'. You need to do it in order to use the directory as a repo.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-  The staging area is the stuff you're getting ready to commit. The working directory is the stuff actually on your computer in the file I think. The repository is the thing that actually goes online I believe. 
+  The staging area is the stuff you're getting ready to commit. The working directory is the stuff actually on your computer in the file I think. The repository is the thing that actually goes online I believe.
+
+How can you use the staging area to make sure you have one commit per logical change?
+  By checking with git diff one can see what is/is not committed, and then removing/adding to staging area accordingly.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  Adding new experimental things that you don't know if you will use. For example, making my own version of the NUKE editor code for the hexapod. Or just the branch involving spider2DOF
+
+How do the diagrams help you visualize the branch structure?
+  bruh. its a diagram, it shows how the branches break up and interact with each other.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+  combines the two branches automatically. moves the new combined tip to the master branch most recent. good idea to delete the branch that got merged with master after.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+  Git's automatic merging clearly saves so much time. Cons, theres a chance something could mess up but this seems like the way to go tbh.
