@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+  It showed only the lines that changed, so it was far easier to spot the typo.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+  Allows us to view and review our previous mistakes which is more likely to prevent them in the future
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs. havng versions automatically saved, like Google Docs does?
+  Manual: pros - complete control of commit size. cons - user error could cause one to forget to commit.
+  Automatic: pros - prevents one from forgetting to commit. cons - could make commits too large or small
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+  Git deals with code, which commonly has codependences. Google docs is unlikely to have this so there is no need.
+
+How can you use the commands git log and git diff to view the history of files?
+  git log shows all of the commits, and then you can type git diff (followed by the commit ID of the two you want to compare). It will return the removed lines in red and added ones in green.
+
+How might using version control make you more confident to make changes that could break something?
+  With VC it is much easier to just go back and see an error based on what was changed, while without it one has to just figure out the mistake without the knowledge of what was changed.
+
+Now that you have your workspace set up, what do you want to try using git for?
+  Mainly the hexapod RST 2019 python stuff. But If I get more confident I think it would be nice to configure arduino for this as well.
